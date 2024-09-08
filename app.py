@@ -29,7 +29,7 @@ def analyze_sentiment():
             messages=[
                 {
                     "role": "system",
-                    "content": "tell me about all ingredient of the following text:",
+                    "content": "tell me about all ingredient of the following text and change it to thai language:",
                 },
                 {"role": "user", "content": text},
             ],
