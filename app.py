@@ -39,16 +39,6 @@ def analyze_sentiment():
         ai_response = response["choices"][0]["message"]["content"].strip()
         print(ai_response)
 
-        # Assuming that sentiment_response contains the sentiment in neg, neu, or pos format
-        # if "neg" in sentiment_response.lower():
-        #     sentiment = "neg"
-        # elif "neu" in sentiment_response.lower():
-        #     sentiment = "neu"
-        # elif "pos" in sentiment_response.lower():
-        #     sentiment = "pos"
-        # else:
-        #     sentiment = "unknown"
-
         return jsonify({"Mr.Ai response is : ": ai_response})
 
     except Exception as e:
