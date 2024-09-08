@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 
 # Route to analyze sentiment using OpenAI GPT
-@app.route("/sentiment", methods=["POST"])
+@app.route("/response", methods=["POST"])
 def analyze_sentiment():
     try:
         # Extract the OpenAI API key and the text to analyze from the POST request
