@@ -37,7 +37,7 @@ def analyze_sentiment():
 
         # Extract the sentiment from the response
         ai_response = response["choices"][0]["message"]["content"].strip()
-        # print(sentiment_response)
+        print(ai_response)
 
         # Assuming that sentiment_response contains the sentiment in neg, neu, or pos format
         # if "neg" in sentiment_response.lower():
