@@ -1,4 +1,4 @@
-# flask-app-gpt (sentiment) api
+# flask-app-gpt (Test Only) api
 
 ## Template openai connect model
 ```python
