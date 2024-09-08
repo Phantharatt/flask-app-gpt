@@ -49,7 +49,7 @@ def analyze_sentiment():
         # else:
         #     sentiment = "unknown"
 
-        return jsonify({"response": ai_response})
+        return jsonify({"Mr.Ai response is : ": ai_response})
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
