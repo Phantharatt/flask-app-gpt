@@ -14,7 +14,7 @@ text = "I am very happy today!"
 response = openai.ChatCompletion.create(
     model="gpt-3.5-turbo-0125",
     messages=[
-        {"role": "system", "content": "tell me about all ingredient of the following text:"},
+        {"role": "system", "content": "tell me about all ingredient of the following text and change it to thai language:"},
         {"role": "user", "content": text}
     ]
 )
